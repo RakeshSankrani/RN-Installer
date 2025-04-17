@@ -1,0 +1,27 @@
+{
+    "name": "rn-installer",
+    "version": "1.0.0",
+    "description": "React Native setup automation tool",
+    "main": "index.js",
+    "bin": {
+      "rn-installer": "./index.js"
+    },
+    "scripts": {
+      "start": "node index.js"
+    },
+    "author": "Rakesh Sankrani",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/RakeshSankrani/RN-Installer.git"
+    },
+    "keywords": [
+      "react-native",
+      "installer",
+      "cli",
+      "automation"
+    ],
+    "engines": {
+      "node": ">=14.0.0"
+    }
+  }
